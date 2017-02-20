@@ -18,11 +18,9 @@ int main(int argc, char *argv[])
   return 0;
 }
 
-/* Sepaton:
-   epoll and connect/reconnect abstract - 
-   - tcp/ip
-   - RDMA (infiniband)
-*/
+/*
+ * Create connection abstraction later - auto reconnect
+ */
 int StartNode(int arg)
 {
   int status;
